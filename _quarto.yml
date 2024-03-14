@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "CASA0023_Learning_diary"
@@ -8,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - xaringanppt_Week2.qmd
     - summary.qmd
     - references.qmd
 
