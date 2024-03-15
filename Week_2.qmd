@@ -1,0 +1,13 @@
+---
+title: "Week 2"
+bibliography: references.bib
+---
+
+Here is a short presentation:
+
+```{r echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "https://shengaric92.github.io/CASA0023_learning_ppt/",
+  ratio = "16:9")
+
+```

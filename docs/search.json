@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CASA0023_Learning_diary",
     "section": "",
-    "text": "CASA0023 Learning Diary"
+    "text": "CASA0023 Learning Diary\naaa\naaa\naaa"
   },
   {
     "objectID": "intro.html",
@@ -23,8 +23,15 @@
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "3  Summary",
+    "title": "2  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Week_2.html",
+    "href": "Week_2.html",
+    "title": "2  Week 2",
+    "section": "",
+    "text": "Here is a short presentation:"
   }
 ]
