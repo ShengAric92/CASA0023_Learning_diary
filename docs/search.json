@@ -18,7 +18,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Gibson, Rebecca, Tim Danaher, Warwick Hehir, and Luke Collins. 2020.\n“A Remote Sensing Approach to Mapping Fire Severity in\nSouth-Eastern Australia Using Sentinel 2 and Random Forest.”\nRemote Sensing of Environment 240: 111702. https://www.sciencedirect.com/science/article/abs/pii/S0034425720300717.\n\n\nKaplan, Gordana, Ugur Avdan, and Zehra Yigit Avdan. 2018. “Urban\nHeat Island Analysis Using the Landsat 8 Satellite Data: A Case Study in\nSkopje, Macedonia.” In Proceedings, 2:358. 7. MDPI. https://www.mdpi.com/2504-3900/2/7/358.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nNavalgund, Ranganath R, V Jayaraman, and PS Roy. 2007. “Remote\nSensing Applications: An Overview.” Current Science,\n1747–66. https://www.jstor.org/stable/24102069."
+    "text": "Gibson, Rebecca, Tim Danaher, Warwick Hehir, and Luke Collins. 2020.\n“A Remote Sensing Approach to Mapping Fire Severity in\nSouth-Eastern Australia Using Sentinel 2 and Random Forest.”\nRemote Sensing of Environment 240: 111702. https://www.sciencedirect.com/science/article/abs/pii/S0034425720300717.\n\n\nKaplan, Gordana, Ugur Avdan, and Zehra Yigit Avdan. 2018. “Urban\nHeat Island Analysis Using the Landsat 8 Satellite Data: A Case Study in\nSkopje, Macedonia.” In Proceedings, 2:358. 7. MDPI. https://www.mdpi.com/2504-3900/2/7/358.\n\n\nNavalgund, Ranganath R, V Jayaraman, and PS Roy. 2007. “Remote\nSensing Applications: An Overview.” Current Science,\n1747–66. https://www.jstor.org/stable/24102069."
   },
   {
     "objectID": "summary.html",
@@ -75,5 +75,12 @@
     "title": "1  Week 1",
     "section": "1.2 Applications",
     "text": "1.2 Applications\nNavalgund, Jayaraman, and Roy (2007) point out that remote sensing data application fields are vast, encompassing forestry, agriculture, marine resources, disaster prediction, and more. This technology, primarily focused on identifying features on the Earth’s surface, is particularly well-suited for environmental protection and climate forecasting (natural resources).\nA typical application scenario is the prediction and prevention of forest fires. Gibson et al. (2020) used Sentinel-2 imagery and random forest machine learning methods to accurately map the severity of fires in southeastern Australia. Sentinel-2 has a high update frequency (short revisit time) and 13 spectral bands (two more than Landsat 8-9). More spectral bands and shorter revisit times make Sentinel-2 more suitable for preventing forest fires than Landsat 8-9.\nHowever, Landsat 8-9 has a Thermal Infrared Sensor, which can effectively capture the land surface temperature, making Landsat 8-9 more suitable for addressing urban heat island effects. Kaplan, Avdan, and Avdan (2018) used Landsat 8 Satellite Data to analyze the urban heat island in Skopje, Macedonia.\nThese pieces of literature highlight the importance of remote sensing technology and tell me that different sensors have advantages and disadvantages. We must rationally use them and apply them in the most suitable fields."
+  },
+  {
+    "objectID": "Week_3.html#summary",
+    "href": "Week_3.html#summary",
+    "title": "3  Week 3 Correction",
+    "section": "3.1 Summary",
+    "text": "3.1 Summary"
   }
 ]

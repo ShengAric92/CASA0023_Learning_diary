@@ -1,11 +1,9 @@
-# Week 1
+# Week 3 Correction
 
-# §1 Summary
+## Summary
 
-This is a book created from markdown and executable code.
+<br>
 
-See @knuth84 for additional discussion of literate programming.
+![](images/Week3/Week3xmind.png)
 
-```{r}
-1 + 1
-```
+<br>
