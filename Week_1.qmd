@@ -24,16 +24,22 @@ This week's practical taught me how to download and process Sentinel and Landsat
 
 ## Applications
 
-@navalgund2007remote
+@navalgund2007remote point out that remote sensing data application fields are vast, encompassing forestry, agriculture, marine resources, disaster prediction, and more. This technology, primarily focused on identifying features on the Earth's surface, is particularly well-suited for environmental protection and climate forecasting (natural resources).
 
-@gibson2020remote
+A typical application scenario is the prediction and prevention of forest fires. @gibson2020remote used Sentinel-2 imagery and random forest machine learning methods to accurately map the severity of fires in southeastern Australia. Sentinel-2 has a high update frequency (short revisit time) and 13 spectral bands (two more than Landsat 8-9). More spectral bands and shorter revisit times make Sentinel-2 more suitable for preventing forest fires than Landsat 8-9.
 
-@kaplan2018urban
+However, Landsat 8-9 has a Thermal Infrared Sensor, which can effectively capture the land surface temperature, making Landsat 8-9 more suitable for addressing urban heat island effects. @kaplan2018urban used Landsat 8 Satellite Data to analyze the urban heat island in Skopje, Macedonia.
+
+These pieces of literature highlight the importance of remote sensing technology and tell me that different sensors have advantages and disadvantages. We must rationally use them and apply them in the most suitable fields.
 
 ## Reflection
 
 I wasn't very familiar with this field before. However, through this week's study, I've grasped the basics of remote sensing and realized its significance. Remote sensing allows people to see the Earth's surface clearly, and different sensors and data formats have specific applications.
 
 Compared to the overall difficulty of CASA0005, getting started with the first practical of this course was somewhat challenging. Therefore, I want to emphasize that processing remote sensing data is much harder than expected! It requires a significant amount of time, continuous practice, and adaptation. However, it's also very interesting. I'm genuinely happy when I'm using SNAP, curiously and tirelessly observing the images.
+
+(Here's a personal experience using R and SNAP: Compared to SNAP, R can process data more quickly and efficiently as the code is more adaptable, and it integrates well with other libraries, facilitating data analysis and visualization (such as chart making). However constantly working with code can become tedious, and R does not readily provide a dynamic observation and monitoring experience (unless one writes a series of interactive design codes). On the other hand, SNAP boasts many powerful features for an enhanced visual experience, such as drag and zoom, Colour Manipulation, and even World View (where you can drag the Earth!), though its complex layout may need to be more beginner-friendly.
+
+SNAP excels in data preprocessing and provides a solid visual presentation. R, conversely, is better suited for more detailed analysis and visualization of data (like data distribution, trend changes, and comparative analysis).)
 
 I've become more curious about the details of remote sensing technology, such as how various indices are calculated. Moreover, while reading the literature, I've noticed that in recent years, most remote sensing data has almost always been linked to the term 'Machine Learning.' I will keep an eye on the Machine Learning field, and by combining it with the course CASA0006 this term, I should gain more insights.
