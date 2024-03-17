@@ -1,4 +1,6 @@
-# Introduction
+# Week 1
+
+# §1 Summary
 
 This is a book created from markdown and executable code.
 

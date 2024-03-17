@@ -1,7 +1,27 @@
-# CASA0023 Learning Diary {.unnumbered}
+# About me {.unnumbered}
 
-aaa
+Hi! I'm Sheng! I am an online music producer and currently a student in the 2023-2024 MSc Urban Spatial Science programme at UCL. I graduated from the University of Glasgow in 2022 with an MA in Mathematics and Music. During my undergraduate studies, I focused on music composition and analysis. In addition to enjoying pleasant film scores, I also like researching cool but somewhat incomprehensible music, such as stochastic processes, music matrices, and even the application of group theory in music composition.
 
-aaa
+In the following year, I went on to pursue an MSc in Computational Applied Mathematics at the University of Edinburgh. During this period, my coding and data analysis skills were further enhanced. To me, mathematics represents a beautiful yet challenging combination, something to be loved and endured with difficulty. The journey of studying mathematics has been replete with bumps and tumbles, yet it has been thoroughly fascinating. After graduating from Edinburgh, I then moved to London.
 
-aaa
+I have lived in different cities, studied various subjects, and experienced diverse lifestyles. When I'm tired, I tend to slack off, and when I'm bored, I become very diligent. Indeed, **I am someone who places more emphasis on experiences and feelings\...**
+
+<br>
+
+![](images/intro/MathsMusic.jpg)
+
+<br>
+
+One day, as I was flipping through my music scores, I noticed that the fluctuating notes resembled the uneven skyscrapers. **Hey, don't you think the structure and development of music are similar to that of cities?** I think it's time for me to get even closer to these beautiful cities\...
+
+My musician account name is [AricGT](https://music.163.com/#/artist?id=12084030), and you can find me on the NetEase Cloud Music platform. I must apologize for not updating it in over three years (because mathematics has been quite challenging, haha, and it has taken up a lot of my time)!
+
+Thank you very much for viewing my learning diary or for listening to my tracks.
+
+<br>
+
+![](images/intro/album.jpg)
+
+<br>
+
+The observant among you might notice that the covers of my two singles were shot in two different cities, Glasgow and London. In fact, I visited London once before in 2018. That last visit was part of a college activity, which was to watch a musical. This time, returning to London, I began my journey studying Urban Spatial Science.

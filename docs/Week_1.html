@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sheng Hu">
-<meta name="dcterms.date" content="2024-03-03">
 
-<title>CASA0023 Learning diary</title>
+<title>CASA0023 Learning diary - 1&nbsp; Week 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,7 +49,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Week_1.html" rel="next">
+<link href="./Week_2.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">About me</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week_1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -102,13 +120,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About me</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Week_1.html" class="sidebar-item-text sidebar-link">
+  <a href="./Week_1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1</span></span></a>
   </div>
 </li>
@@ -146,7 +164,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About me</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">1.1</span> Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">1.2</span> Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">1.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -155,26 +175,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CASA0023 Learning diary</h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Sheng Hu </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 3, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -182,23 +190,59 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="about-me" class="level1 unnumbered">
-<h1 class="unnumbered">About me</h1>
-<p>Hi! I’m Sheng! I am an online music producer and currently a student in the 2023-2024 MSc Urban Spatial Science programme at UCL. I graduated from the University of Glasgow in 2022 with an MA in Mathematics and Music. During my undergraduate studies, I focused on music composition and analysis. In addition to enjoying pleasant film scores, I also like researching cool but somewhat incomprehensible music, such as stochastic processes, music matrices, and even the application of group theory in music composition.</p>
-<p>In the following year, I went on to pursue an MSc in Computational Applied Mathematics at the University of Edinburgh. During this period, my coding and data analysis skills were further enhanced. To me, mathematics represents a beautiful yet challenging combination, something to be loved and endured with difficulty. The journey of studying mathematics has been replete with bumps and tumbles, yet it has been thoroughly fascinating. After graduating from Edinburgh, I then moved to London.</p>
-<p>I have lived in different cities, studied various subjects, and experienced diverse lifestyles. When I’m tired, I tend to slack off, and when I’m bored, I become very diligent. Indeed, <strong>I am someone who places more emphasis on experiences and feelings...</strong></p>
-<p><br></p>
-<p><img src="images/intro/MathsMusic.jpg" class="img-fluid"></p>
-<p><br></p>
-<p>One day, as I was flipping through my music scores, I noticed that the fluctuating notes resembled the uneven skyscrapers. <strong>Hey, don’t you think the structure and development of music are similar to that of cities?</strong> I think it’s time for me to get even closer to these beautiful cities...</p>
-<p>My musician account name is <a href="https://music.163.com/#/artist?id=12084030">AricGT</a>, and you can find me on the NetEase Cloud Music platform. I must apologize for not updating it in over three years (because mathematics has been quite challenging, haha, and it has taken up a lot of my time)!</p>
-<p>Thank you very much for viewing my learning diary or for listening to my tracks.</p>
-<p><br></p>
-<p><img src="images/intro/album.jpg" class="img-fluid"></p>
-<p><br></p>
-<p>The observant among you might notice that the covers of my two singles were shot in two different cities, Glasgow and London. In fact, I visited London once before in 2018. That last visit was part of a college activity, which was to watch a musical. This time, returning to London, I began my journey studying Urban Spatial Science.</p>
+<section id="summary" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">1.1</span> Summary</h2>
+<p>The first week’s lecture provided a general introduction to the fundamentals of remote sensing. In a nutshell, remote sensing refers to <span style="color: blue"><strong>the use of sensors mounted on remote platforms to acquire and record information from a distance</strong></span>.</p>
+<ul>
+<li>This week’s lecture provided insights into two different types of sensors: <strong>active and passive sensors</strong>. The former actively emits electromagnetic waves, consumes more energy, and has penetrating capabilities, allowing it to operate around the clock. The latter, on the other hand, utilizes energy without emitting anything and is relatively less costly compared to active sensors; however, it is sensitive to climatic conditions.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week1/APsensors.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Diagram of a passive sensor versus an active sensor (Source: <a href="https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing">EARTHDATA</a>)</figcaption>
+</figure>
+</div>
+<ul>
+<li><p>Additionally, I gained an understanding of the principles of <strong>electromagnetic wave and radiation propagation</strong>, along with related physical phenomena, such as atmospheric scattering.</p></li>
+<li><p>Typically, remote sensing data is in <strong>raster format</strong>. However, the data format also depends on the type of sensor, such as LiDAR point cloud data.</p></li>
+<li><p>There are four common types of remote sensing resolutions: <strong>Spatial, Spectral, Radiometric, and Temporal</strong>. Different resolutions have their specific application scenarios.</p></li>
+</ul>
+<p>The image below is a mind map that I created using Xmind. It summarises this week’s content in the form of keywords, facilitating my ability to associate and review the material.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week1/Week1xmind.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Mind map for Week 1 content</figcaption>
+</figure>
+</div>
+<p>This week’s practical taught me how to download and process Sentinel and Landsat data. Using SNAP for data preprocessing and R for data analysis allowed me to explore Landsat and Sentinel data and understand spectral signatures. For this practical, I chose the city of Port Elizabeth in South Africa, a port city with diverse geographical features. The most interesting part for me was selecting different band combinations to create colour composites. I chose Natural Colour (B4, B3, B2), Colour Infrared (B8, B4, B3), Atmospheric Penetration Composite (B12, B11, B8A), and Agriculture Band Combinations (B11, B8, B2) (see below). Through Colour Infrared and Agriculture Band Combinations, we can more intuitively assess the health of vegetation and crops. In Colour Infrared, healthy vegetation typically appears bright red, while in Agriculture Band Combinations, it appears bright green. I discovered that the vegetation along the southern coast of Port Elizabeth is very healthy, whereas the vegetation in the northeast is relatively less so.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week1/Bandmapnum.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Colour composites of Port Elizabeth</figcaption>
+</figure>
+</div>
+</section>
+<section id="applications" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">1.2</span> Applications</h2>
+<p><span class="citation" data-cites="navalgund2007remote">Navalgund, Jayaraman, and Roy (<a href="references.html#ref-navalgund2007remote" role="doc-biblioref">2007</a>)</span></p>
+<p><span class="citation" data-cites="gibson2020remote">Gibson et al. (<a href="references.html#ref-gibson2020remote" role="doc-biblioref">2020</a>)</span></p>
+<p>[<span class="citation" data-cites="kaplan2018urban">Kaplan, Avdan, and Avdan (<a href="references.html#ref-kaplan2018urban" role="doc-biblioref">2018</a>)</span>]</p>
+</section>
+<section id="reflection" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.3</span> Reflection</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-gibson2020remote" class="csl-entry" role="listitem">
+Gibson, Rebecca, Tim Danaher, Warwick Hehir, and Luke Collins. 2020. <span>“A Remote Sensing Approach to Mapping Fire Severity in South-Eastern Australia Using Sentinel 2 and Random Forest.”</span> <em>Remote Sensing of Environment</em> 240: 111702. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0034425720300717">https://www.sciencedirect.com/science/article/abs/pii/S0034425720300717</a>.
+</div>
+<div id="ref-kaplan2018urban" class="csl-entry" role="listitem">
+Kaplan, Gordana, Ugur Avdan, and Zehra Yigit Avdan. 2018. <span>“Urban Heat Island Analysis Using the Landsat 8 Satellite Data: A Case Study in Skopje, Macedonia.”</span> In <em>Proceedings</em>, 2:358. 7. MDPI. <a href="https://www.mdpi.com/2504-3900/2/7/358">https://www.mdpi.com/2504-3900/2/7/358</a>.
+</div>
+<div id="ref-navalgund2007remote" class="csl-entry" role="listitem">
+Navalgund, Ranganath R, V Jayaraman, and PS Roy. 2007. <span>“Remote Sensing Applications: An Overview.”</span> <em>Current Science</em>, 1747–66. <a href="https://www.jstor.org/stable/24102069">https://www.jstor.org/stable/24102069</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -437,10 +481,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About me</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Week_1.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Week_2.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
