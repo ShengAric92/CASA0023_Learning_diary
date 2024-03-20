@@ -1,9 +1,27 @@
-# Week 3 Correction
+# Week 3 Corrections
 
 ## Summary
 
-<br>
+This week's lecture primarily taught us several types of "corrections": Geometric Correction, Atmospheric Correction, Orthorectification Correction, and Radiometric Calibration. Due to atmospheric factors, varying terrains, and weaknesses of different sensors, remote sensing images may have imperfections, making Correction essential. Different types of correction methods are utilised to address image distortions, inaccuracies, and impacts caused by various factors, to obtain images that more closely represent the actual conditions of the Earth's surface.
 
-![](images/Week3/Week3xmind.png)
+-   **Geometric Correction** can rectify distortions in images caused by the sensor's angle of view, the Earth's rotation, and other factors. It necessitates the identification of ground control points (GPS) to match known points in the image with those in the reference dataset and then constructs a model to align the pixels.
 
-<br>
+-   This week's practical session focuses primarily on **Atmospheric Correction**. Atmospheric scattering reduces image contrast and produces "adjacent effects." Biophysical parameters and spectral signatures through time and space are essential for Atmospheric Correction. The practical explained the principles and formulas of Dark Object Subtraction (the darkest pixel should be 0).
+
+-   **Orthorectification** falls under the category of georectification, aimed at eliminating distortions to ensure pixels are viewed as if from nadir.
+
+-   **Radiometric calibration** converts Digital Numbers to spectral radiance, allowing images to reflect spectral characteristics.
+
+![True color composite vs Atmospheric correction (Source: [NASA](https://hls.gsfc.nasa.gov/algorithms/atmospheric-correction/))](images/Week3/Week3_atmos.jpeg)
+
+In addition, I also learned about image stitching techniques and the principles behind various types of image enhancement. This week's practical involved hands-on application of many enhancement methods. I found the ratio most interesting, as it allows us to highlight specific landscape features in an image. The image below demonstrates my use of the Normalised Difference Vegetation Index (NDVI) to observe the area I selected in the first week, covering Port Elizabeth, thereby highlighting regions with healthy vegetation. A higher NDVI value indicates more excellent vegetation cover and better growth conditions.
+
+![Selected Area NDVI](images/Week3/Week3_NDVI.png)
+
+The image below is a mind map I created based on the knowledge acquired this week, to facilitate revision.
+
+![Mind map for Week 3 content](images/Week3/Week3xmind.png)
+
+## Applications
+
+## Reflection
