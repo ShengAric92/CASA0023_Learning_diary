@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -197,14 +216,71 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="8.1">
 <h2 data-number="8.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">8.1</span> Summary</h2>
+<p>This week’s lecture specifically discussed the Urban Heat Island (UHI) effect and the various mitigation policies cities propose. In the fourth week’s case study, I have already gained a preliminary understanding of the UHI effect, where the Temperature in urban areas is higher than in the surrounding rural areas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week8/Week8UHI.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Urban Heat Island Effect (Source: <a href="https://www.youtube.com/watch?app=desktop&amp;v=3I46AWr62a8">YouTube</a>)</figcaption>
+</figure>
+</div>
+<p>The lecture began with a detailed introduction to the causes of UHI (such as dark surfaces, less vegetation, etc.), followed by an explanation of the significant impact and losses caused by UHI in social, environmental, and economic aspects. Consequently, many global and local policies gradually emerged to alleviate the UHI effect and achieve the Sustainable Development Goals (SDGs).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week8/Week8SDG1311.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">SDGs 13 and 11 (Source: <a href="https://www.climatebonds.net/2018/06/green-bonds-bridge-sdgs-focus-sdg-6-7-9-11-13-15">Climate Bonds</a>)</figcaption>
+</figure>
+</div>
+<p>In the latter half of the lecture, the content became more profound. I started to realize the cacophony of the various schemes and policies. Too many seemingly effective methods exist, but are they all suitable for implementation in specific cities? The lecture made me aware of deeper issues in the policy-making domain that should be considered:</p>
+<ul>
+<li><p>Do these policies provide enough detail?</p></li>
+<li><p>Given the different cities and terrains, are the methods reproducible?</p></li>
+<li><p>Could regulations constrain the implementation of the schemes?</p></li>
+<li><p>Should we focus more on Equity, Equality, or Justice?</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week8/Week8EEJ.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Environmental equality, equity and justice (Source: <a href="https://ncceh.ca/resources/blog/renewed-attention-environmental-equity-and-justice">National Collaborating Centre for Environmental Health</a>)</figcaption>
+</figure>
+</div>
+<p>This week’s practical focused on using code to explore urban temperatures based on two different data types, Landsat and MODIS. Although MODIS data can create time series, it loses spatial elements. (The nature of advantages and disadvantages was emphasized again. In this course, we have seen many different sensors and data types, each with advantages, disadvantages, and application scenarios.)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week8/Week8xmind.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Mind map for Week 8 content</figcaption>
+</figure>
+</div>
+<p>The image below is a mind map I created for this week’s topics, which facilitates revision.</p>
 </section>
 <section id="applications" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">8.2</span> Applications</h2>
+<p>There are various schemes to mitigate the Urban Heat Island (UHI) effect. In this section, I aim to highlight the use of remote sensing technology to explore the comparative effectiveness of these different schemes and policies. <span class="citation" data-cites="W8R1">Saneinejad, Moonen, and Carmeliet (<a href="references.html#ref-W8R1" role="doc-biblioref">2014</a>)</span> utilized the Universal Thermal Climate Index (UTCI) for simulations to examine the effects of evaporative cooling, shading, and changing surface albedo on mitigating the UHI effect, discovering that increasing surface reflectivity results in less comfort improvement than shading does. <span class="citation" data-cites="W8R2">Wang, Berardi, and Akbari (<a href="references.html#ref-W8R2" role="doc-biblioref">2016</a>)</span> employed remote sensing technology to collect data and evaluate various UHI mitigation strategies in Toronto. It was found that the duration of direct sunlight and the mean radiant Temperature, which are significantly influenced by urban form, play crucial roles.</p>
+<p><span class="citation" data-cites="W8R3">Parsaee et al. (<a href="references.html#ref-W8R3" role="doc-biblioref">2019</a>)</span> criticized urban climate maps (UCMs) and UHI mitigation strategies as being often limited in their application to urban development actions, as many strategies fail to engage stakeholders adequately. Consequently, the establishment of a collaborative UCM platform is recommended.</p>
+<p>Despite the popularity of increasing surface reflectivity (cool coatings) as a mitigation measure, this week’s readings offered a critique of this approach.</p>
 </section>
 <section id="reflection" class="level2" data-number="8.3">
 <h2 data-number="8.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">8.3</span> Reflection</h2>
+<p>This week’s task offered a choice between SAR and Temperature topics. I opted for Temperature as this theme effectively linked much of the knowledge I’ve been interested in this term. In this chapter, I’ve learned how remote sensing technology can assist us in mitigating the UHI effect and formulating policies. Indeed, the lecture continuously emphasized the complexity and contentious nature of policy-making.</p>
+<p>The CASA0008 Smart Cities course introduced a term known as the Quadruple Helix (comprising Government, Academy, Industry, and Community). Beyond the considerations outlined in the summary, the effectiveness of a policy’s implementation crucially hinges on successful engagement with the Quadruple Helix. Policy-makers must consider the losses and benefits to each sector within the Quadruple Helix, striving to achieve a balanced, win-win situation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week8/Week8Helix.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Quadruple Helix Model (Source: <a href="https://www.researchgate.net/figure/The-quadruple-helix-model-as-a-basis-for-Knowledge-Societies_fig2_311442351">ResearchGate</a>)</figcaption>
+</figure>
+</div>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-W8R3" class="csl-entry" role="listitem">
+Parsaee, Mojtaba, Mahmood Mastani Joybari, Parham A Mirzaei, and Fariborz Haghighat. 2019. <span>“Urban Heat Island, Urban Climate Maps and Urban Development Policies and Action Plans.”</span> <em>Environmental Technology &amp; Innovation</em> 14: 100341. <a href="https://www.sciencedirect.com/science/article/pii/S2352186418304541?casa_token=snW8navnnr0AAAAA:gzs63szM8h5kNvROzRqGIZarUx5bNoLSi9pYCxEosfVBb6clS2IhAMoGFMOYUGg169QSwE7V7jw">https://www.sciencedirect.com/science/article/pii/S2352186418304541?casa_token=snW8navnnr0AAAAA:gzs63szM8h5kNvROzRqGIZarUx5bNoLSi9pYCxEosfVBb6clS2IhAMoGFMOYUGg169QSwE7V7jw</a>.
+</div>
+<div id="ref-W8R1" class="csl-entry" role="listitem">
+Saneinejad, Saba, Peter Moonen, and Jan Carmeliet. 2014. <span>“Comparative Assessment of Various Heat Island Mitigation Measures.”</span> <em>Building and Environment</em> 73: 162–70. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0360132313003697?casa_token=tZRDmAe8HucAAAAA:xj9pTnG8yGRRVlHQfls8MADgR-I5HFfzF8Fy3EtdlW6FpFORU2LB8N6kY9jEx0eEiwBa9dmkiUE">https://www.sciencedirect.com/science/article/abs/pii/S0360132313003697?casa_token=tZRDmAe8HucAAAAA:xj9pTnG8yGRRVlHQfls8MADgR-I5HFfzF8Fy3EtdlW6FpFORU2LB8N6kY9jEx0eEiwBa9dmkiUE</a>.
+</div>
+<div id="ref-W8R2" class="csl-entry" role="listitem">
+Wang, Yupeng, Umberto Berardi, and Hashem Akbari. 2016. <span>“Comparing the Effects of Urban Heat Island Mitigation Strategies for Toronto, Canada.”</span> <em>Energy and Buildings</em> 114: 2–19. <a href="https://www.sciencedirect.com/science/article/pii/S037877881530075X?casa_token=5CMSN8LLESMAAAAA:HzMU5RWknVgS3VF8zIpQ6QxIWrNWa4i6qkT-hcfs6SGamKbLOYFwLebLjgzZN1hKBoxxirPN7WI">https://www.sciencedirect.com/science/article/pii/S037877881530075X?casa_token=5CMSN8LLESMAAAAA:HzMU5RWknVgS3VF8zIpQ6QxIWrNWa4i6qkT-hcfs6SGamKbLOYFwLebLjgzZN1hKBoxxirPN7WI</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
