@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -197,14 +216,84 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.1</span> Summary</h2>
+<p>I chose Los Angeles, USA, as this week’s city case study. As the largest city in California, Los Angeles has a vast population. Despite its booming economy, it faces severe climate challenges. <span class="citation" data-cites="W4RAA1">City of Los Angeles (<a href="references.html#ref-W4RAA1" role="doc-biblioref">2021</a>)</span> outlets have expressed concern about the climate in Los Angeles, noting that over the next few decades, the average temperature in Los Angeles is expected to rise by 5 degrees Fahrenheit, with extreme heat causing significant damage. Los Angeles is experiencing a serious Urban Heat Island (UHI) effect, a microclimate phenomenon in which urban areas are significantly warmer than rural ones.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week4/Week4LA.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Downtown Los Angeles (Source: <a href="https://www.flickr.com/photos/docsearls/12020329773/in/photostream/">flickr</a>)</figcaption>
+</figure>
+</div>
+<p>The American Council for an Energy-Efficient Economy (ACEEE) recorded <span class="citation" data-cites="W4RAA2"><span>“Los Angeles Heat Island Mitigation Policies and Programs”</span> (<a href="references.html#ref-W4RAA2" role="doc-biblioref">n.d.</a>)</span>, which indicates that Los Angeles has also approved many programs and policies to mitigate the UHI effect. The Cool Streets program incorporates many strategies, including shade structures and cool pavements. In October 2020, the City Council approved a policy requiring all new roofs to be cool roofs. The city’s Sustainable City Plan has set a goal to reduce the temperature difference between the city and rural areas by 1.7 degrees Fahrenheit by 2025.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week4/Week4LA2.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Los Angeles surrounding areas (Source: <a href="https://earthhacksorg.medium.com/event-spotlight-urban-heat-island-hackathon-4d69b311af31">Medium</a>)</figcaption>
+</figure>
+</div>
+<p><span class="citation" data-cites="W4RAA3">Center for Resilient Cities and Landscapes (<a href="references.html#ref-W4RAA3" role="doc-biblioref">2020</a>)</span> has proposed a Heat Vulnerability Assessment. This assessment aims to achieve three main targets:</p>
+<ul>
+<li><p>Converting heat-absorbing surfaces to cool surfaces.</p></li>
+<li><p>Reducing the number of high-temperature emergency visits by residents.</p></li>
+<li><p>Increasing urban tree canopy coverage.</p></li>
+</ul>
+<p>These various policies, strategies, and plans aim to mitigate the UHI effect in Los Angeles, aligning with Sustainable Development Goal 13 (SDG 13) from <span class="citation" data-cites="W4RAA4">United Nations (<a href="references.html#ref-W4RAA4" role="doc-biblioref">2015</a>)</span> : ‘Take urgent action to combat climate change and its impacts’.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week4/Week4SDG13.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Sustainable Development Goal 13 (Source: <a href="https://www.endpoverty2030.com/sdg13">ENDPOVERTY2030</a>)</figcaption>
+</figure>
+</div>
 </section>
 <section id="applications" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">4.2</span> Applications</h2>
+<p>This section will introduce various studies on using remote sensing technology to mitigate the Urban Heat Island (UHI) effect in Los Angeles. Many examples of using remote sensing technology to tackle the UHI effect exist. These efforts mainly aim to observe and detect urban heat vulnerability and then utilize vulnerability maps in combination with policies to construct and improve specific urban areas. For example, <span class="citation" data-cites="W4R3ko2022measuring">Ko et al. (<a href="references.html#ref-W4R3ko2022measuring" role="doc-biblioref">2022</a>)</span> deployed cooling pavement devices across a large spatial scale.</p>
+<p>Remote sensing data have also been used to examine further the effects of different mitigation solutions, such as <span class="citation" data-cites="W4R5maruya2021cool">Maruya (<a href="references.html#ref-W4R5maruya2021cool" role="doc-biblioref">2021</a>)</span> studied the impact of albedo and cool pavement coatings on street surface temperatures using remote sensing infrared temperature data.</p>
+<p>Moreover, some studies use remote sensing data to investigate the underlying factors contributing to the UHI effect and how these data can more effectively represent urban observations. <span class="citation" data-cites="W4R6vahmani2014high">Vahmani and Hogue (<a href="references.html#ref-W4R6vahmani2014high" role="doc-biblioref">2014</a>)</span> combined Landsat and MODIS data to generate parameters such as Green Vegetation Fraction (GVF), albedo, and Impervious Surface Area (ISA). It was found that GVF enhanced the capability to observe urban vegetation areas. <span class="citation" data-cites="W4R2vahmani2016impact">Vahmani and Ban-Weiss (<a href="references.html#ref-W4R2vahmani2016impact" role="doc-biblioref">2016</a>)</span> identified that the distance from the ocean is a significant factor in the variation of urban temperatures in Los Angeles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week4/Week4W4R2.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Geographical representation of the three nested WRF domains <a href="https://shengaric92.github.io/CASA0023_Learning_diary/references.html">(Vahmani &amp; Ban‐Weiss, 2016)</a></figcaption>
+</figure>
+</div>
 </section>
 <section id="reflection" class="level2" data-number="4.3">
 <h2 data-number="4.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">4.3</span> Reflection</h2>
+<p>This week’s study focused specifically on the Urban Heat Island (UHI) effect in Los Angeles. I learned how researchers and policymakers use remote sensing technology to mitigate the UHI effect, aligning with SDG 13: Climate Action.</p>
+<p>Initially, my understanding of UHI was limited, leading me to subconsciously believe that mitigation methods solely involved adding greenery or reducing carbon emissions. However, this week’s readings revealed that many studies concentrate on urban surface albedo. I discovered the importance of converting heat-absorbing surfaces into cool surfaces, such as through the application of cool pavement coatings.</p>
+<p>Throughout the week, I engaged the readings in numerous studies that applied remote sensing. I noticed that different studies might emphasize different aspects. I have summarised these into three main points:</p>
+<ul>
+<li><p>the designation of scheme areas (i.e., identifying the areas most severely affected by the UHI effect)</p></li>
+<li><p>monitoring the effects of schemes (assessing whether the implemented schemes are effectively mitigating the effect)</p></li>
+<li><p>analyzing the factors that contribute to the UHI effect.</p></li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-W4RAA3" class="csl-entry" role="listitem">
+Center for Resilient Cities and Landscapes. 2020. <span>“Heat Vulnerability in Los Angeles County Resource and Methodology Assessment.”</span> <a href="https://crcl.columbia.edu/sites/default/files/content/Southern%20California/LA%20County_Heat_report_200617_compressed.pdf">https://crcl.columbia.edu/sites/default/files/content/Southern%20California/LA%20County_Heat_report_200617_compressed.pdf</a>.
+</div>
+<div id="ref-W4RAA1" class="csl-entry" role="listitem">
+City of Los Angeles. 2021. <span>“SB1 Case Study: Urban Cooling Strategies for Los Angeles Neighborhoods Serviced by the Orange Line.”</span> <a href="https://resilientca.org/projects/e05a58c0-89b5-42b0-9233-2ec015fe7f30/">https://resilientca.org/projects/e05a58c0-89b5-42b0-9233-2ec015fe7f30/</a>.
+</div>
+<div id="ref-W4R3ko2022measuring" class="csl-entry" role="listitem">
+Ko, Joseph, Hannah Schlaerth, Alexandra Bruce, Kelly Sanders, and George Ban-Weiss. 2022. <span>“Measuring the Impacts of a Real-World Neighborhood-Scale Cool Pavement Deployment on Albedo and Temperatures in Los Angeles.”</span> <em>Environmental Research Letters</em> 17 (4): 044027. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ac58a8/meta">https://iopscience.iop.org/article/10.1088/1748-9326/ac58a8/meta</a>.
+</div>
+<div id="ref-W4RAA2" class="csl-entry" role="listitem">
+<span>“Los Angeles Heat Island Mitigation Policies and Programs.”</span> n.d. <a href="https://database.aceee.org/city/mitigation-urban-heat-islands" class="uri">https://database.aceee.org/city/mitigation-urban-heat-islands</a>.
+</div>
+<div id="ref-W4R5maruya2021cool" class="csl-entry" role="listitem">
+Maruya, Russell. 2021. <span>“COOL PAVEMENT AND ITS EFFECTS ON SOUTHERN CALIFORNIA’s MICROCLIMATES.”</span> PhD thesis, California State Polytechnic University, Pomona. <a href="https://scholarworks.calstate.edu/downloads/s4655n889">https://scholarworks.calstate.edu/downloads/s4655n889</a>.
+</div>
+<div id="ref-W4RAA4" class="csl-entry" role="listitem">
+United Nations. 2015. <span>“THE 17 GOALS.”</span> <a href="https://sdgs.un.org/goals">https://sdgs.un.org/goals</a>.
+</div>
+<div id="ref-W4R2vahmani2016impact" class="csl-entry" role="listitem">
+Vahmani, P, and George A Ban-Weiss. 2016. <span>“Impact of Remotely Sensed Albedo and Vegetation Fraction on Simulation of Urban Climate in WRF-Urban Canopy Model: A Case Study of the Urban Heat Island in Los Angeles.”</span> <em>Journal of Geophysical Research: Atmospheres</em> 121 (4): 1511–31. <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023718">https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023718</a>.
+</div>
+<div id="ref-W4R6vahmani2014high" class="csl-entry" role="listitem">
+Vahmani, P, and TS Hogue. 2014. <span>“High-Resolution Land Surface Modeling Utilizing Remote Sensing Parameters and the Noah UCM: A Case Study in the Los Angeles Basin.”</span> <em>Hydrology and Earth System Sciences</em> 18 (12): 4791–4806. <a href="https://hess.copernicus.org/articles/18/4791/2014/">https://hess.copernicus.org/articles/18/4791/2014/</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
