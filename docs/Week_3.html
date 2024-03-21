@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -227,11 +246,34 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
+<p>The application of corrections has a vast scope, aiming to better and more accurately identify targets of interest, such as in image classification. <span class="citation" data-cites="shin1997accurate">Shin, Pollard, and Muller (<a href="references.html#ref-shin1997accurate" role="doc-biblioref">1997</a>)</span> have provided a more precise geometric correction algorithm to match coastlines. <span class="citation" data-cites="gilmore2015effectiveness">Gilmore, Saleem, and Dewan (<a href="references.html#ref-gilmore2015effectiveness" role="doc-biblioref">2015</a>)</span> evaluated images corrected by Dark Object Subtraction (DOS), and the results showed that this method significantly improves the differentiation of wetland areas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week3/Week3ref2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">NDWI produced by raw, optimal threshold, DOS and DOS optimal threshold <a href="https://shengaric92.github.io/CASA0023_Learning_diary/references.html">(Gilmore, Saleem, &amp; Dewan, 2015)</a></figcaption>
+</figure>
+</div>
+<p>Of course, there is literature continuously optimizing this method. For instance, <span class="citation" data-cites="chavez1988improved">Chavez Jr (<a href="references.html#ref-chavez1988improved" role="doc-biblioref">1988</a>)</span> pointed out the weakness of DOS, namely, that the haze values for each spectral band are selected independently and are influenced by atmospheric scattering. Therefore, the author improved the method by normalizing the predicted haze values.</p>
+<p>Through reading the literature, I’ve found that researchers are increasingly favoring the continuous optimization of correction methods’ accuracy (after all, everyone hopes to obtain more accurate images). However, increasing accuracy might also increase computational demand (the optimization methods mentioned above all have greater model computational complexity). There is always a trade-off between accuracy and computational effort, so some simpler methods (like DOS) remain very popular.</p>
 </section>
 <section id="reflection" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> Reflection</h2>
+<p>I feel the arrangement of this week’s lecture and practical sessions was very sensible. The lecture focused on introducing me to various corrections, while the practical allowed me to gain a deeper understanding and hands-on experience in image enhancement.</p>
+<p>In this week’s reflection, I’d like to discuss my perceptions of Corrections specifically. Corrections are complex and sophisticated. When reading literature on the topic, encountering numerous mathematical formulas is common, making the field appear daunting at first glance. Although I enjoy mathematics, I still face many challenges when reading these documents, as the abundance of parameters can be distracting, or I might not fully grasp the derivation of formulas.</p>
+<p>I admire the researchers who optimize or innovate correction methods, understanding that such research demands a significant time investment. My current task is to summarise and synthesize their approaches. However, I hope that through continuous learning, I can achieve a more comprehensive understanding of this field.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-chavez1988improved" class="csl-entry" role="listitem">
+Chavez Jr, Pat S. 1988. <span>“An Improved Dark-Object Subtraction Technique for Atmospheric Scattering Correction of Multispectral Data.”</span> <em>Remote Sensing of Environment</em> 24 (3): 459–79. <a href="https://www.sciencedirect.com/science/article/abs/pii/0034425788900193">https://www.sciencedirect.com/science/article/abs/pii/0034425788900193</a>.
+</div>
+<div id="ref-gilmore2015effectiveness" class="csl-entry" role="listitem">
+Gilmore, Sean, Ashty Saleem, and Ashraf Dewan. 2015. <span>“Effectiveness of DOS (Dark-Object Subtraction) Method and Water Index Techniques to Map Wetlands in a Rapidly Urbanising Megacity with Landsat 8 Data.”</span> <em>Research@ Locate’15</em>, 100–108. <a href="https://espace.curtin.edu.au/handle/20.500.11937/43918">https://espace.curtin.edu.au/handle/20.500.11937/43918</a>.
+</div>
+<div id="ref-shin1997accurate" class="csl-entry" role="listitem">
+Shin, Dongseok, John K Pollard, and J-P Muller. 1997. <span>“Accurate Geometric Correction of ATSR Images.”</span> <em>IEEE Transactions on Geoscience and Remote Sensing</em> 35 (4): 997–1006. <a href="https://ieeexplore.ieee.org/abstract/document/602542">https://ieeexplore.ieee.org/abstract/document/602542</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

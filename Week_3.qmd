@@ -24,4 +24,18 @@ The image below is a mind map I created based on the knowledge acquired this wee
 
 ## Applications
 
+The application of corrections has a vast scope, aiming to better and more accurately identify targets of interest, such as in image classification. @shin1997accurate have provided a more precise geometric correction algorithm to match coastlines. @gilmore2015effectiveness evaluated images corrected by Dark Object Subtraction (DOS), and the results showed that this method significantly improves the differentiation of wetland areas.
+
+![NDWI produced by raw, optimal threshold, DOS and DOS optimal threshold [(Gilmore, Saleem, & Dewan, 2015)](https://shengaric92.github.io/CASA0023_Learning_diary/references.html)](images/Week3/Week3ref2.png)
+
+Of course, there is literature continuously optimizing this method. For instance, @chavez1988improved pointed out the weakness of DOS, namely, that the haze values for each spectral band are selected independently and are influenced by atmospheric scattering. Therefore, the author improved the method by normalizing the predicted haze values.
+
+Through reading the literature, I've found that researchers are increasingly favoring the continuous optimization of correction methods' accuracy (after all, everyone hopes to obtain more accurate images). However, increasing accuracy might also increase computational demand (the optimization methods mentioned above all have greater model computational complexity). There is always a trade-off between accuracy and computational effort, so some simpler methods (like DOS) remain very popular.
+
 ## Reflection
+
+I feel the arrangement of this week's lecture and practical sessions was very sensible. The lecture focused on introducing me to various corrections, while the practical allowed me to gain a deeper understanding and hands-on experience in image enhancement.
+
+In this week's reflection, I'd like to discuss my perceptions of Corrections specifically. Corrections are complex and sophisticated. When reading literature on the topic, encountering numerous mathematical formulas is common, making the field appear daunting at first glance. Although I enjoy mathematics, I still face many challenges when reading these documents, as the abundance of parameters can be distracting, or I might not fully grasp the derivation of formulas.
+
+I admire the researchers who optimize or innovate correction methods, understanding that such research demands a significant time investment. My current task is to summarise and synthesize their approaches. However, I hope that through continuous learning, I can achieve a more comprehensive understanding of this field.
