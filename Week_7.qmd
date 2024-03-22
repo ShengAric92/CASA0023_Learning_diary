@@ -4,4 +4,10 @@
 
 ## Applications
 
+Last week we explored classification, and this week's literature focuses on the assessment of accuracy and the precision comparison of various methods. @W7R1 employed non-parametric rules for supervised classification to categorise and map land use/land cover in the study area. They conducted an accuracy assessment, and their kappa coefficient was 0.722, which is rated as substantial, affirming that this classified image is suitable for further research. Their study is an excellent example of conducting an accuracy assessment.
+
+@W7R2 investigated the accuracy of different Land Use / Land Cover (LULC) mapping algorithms, thereby identifying the best classifiers for Earth Observation (EO) further. They studied six machine learning algorithms, including the well-known Support Vector Machine (SVM), Random Forest (RF), and Artificial Neural Networks (ANN). Their results indicated that the RF algorithm is the best LULC classifier among these six algorithms.
+
+![LULC map with different machine-learning techniques [(Talukdar et al., 2020)](https://shengaric92.github.io/CASA0023_Learning_diary/references.html)](images/Week7/Week7R2.jpg)
+
 ## Reflection

@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -200,11 +219,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
+<p>Last week we explored classification, and this week’s literature focuses on the assessment of accuracy and the precision comparison of various methods. <span class="citation" data-cites="W7R1">Rwanga, Ndambuki, et al. (<a href="references.html#ref-W7R1" role="doc-biblioref">2017</a>)</span> employed non-parametric rules for supervised classification to categorise and map land use/land cover in the study area. They conducted an accuracy assessment, and their kappa coefficient was 0.722, which is rated as substantial, affirming that this classified image is suitable for further research. Their study is an excellent example of conducting an accuracy assessment.</p>
+<p><span class="citation" data-cites="W7R2">Talukdar et al. (<a href="references.html#ref-W7R2" role="doc-biblioref">2020</a>)</span> investigated the accuracy of different Land Use / Land Cover (LULC) mapping algorithms, thereby identifying the best classifiers for Earth Observation (EO) further. They studied six machine learning algorithms, including the well-known Support Vector Machine (SVM), Random Forest (RF), and Artificial Neural Networks (ANN). Their results indicated that the RF algorithm is the best LULC classifier among these six algorithms.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week7/Week7R2.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">LULC map with different machine-learning techniques <a href="https://shengaric92.github.io/CASA0023_Learning_diary/references.html">(Talukdar et al., 2020)</a></figcaption>
+</figure>
+</div>
 </section>
 <section id="reflection" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-W7R1" class="csl-entry" role="listitem">
+Rwanga, Sophia S, Julius M Ndambuki, et al. 2017. <span>“Accuracy Assessment of Land Use/Land Cover Classification Using Remote Sensing and GIS.”</span> <em>International Journal of Geosciences</em> 8 (04): 611. <a href="https://www.scirp.org/html/14-2801413_75926.htm">https://www.scirp.org/html/14-2801413_75926.htm</a>.
+</div>
+<div id="ref-W7R2" class="csl-entry" role="listitem">
+Talukdar, Swapan, Pankaj Singha, Susanta Mahato, Swades Pal, Yuei-An Liou, and Atiqur Rahman. 2020. <span>“Land-Use Land-Cover Classification by Machine Learning Classifiers for Satellite Observations—a Review.”</span> <em>Remote Sensing</em> 12 (7): 1135. <a href="https://www.mdpi.com/2072-4292/12/7/1135">https://www.mdpi.com/2072-4292/12/7/1135</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

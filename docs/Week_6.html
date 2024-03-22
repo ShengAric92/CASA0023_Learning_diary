@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -197,14 +216,44 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.1</span> Summary</h2>
+<p>This week’s lecture began with a review of various studies applying remote sensing, all of which extract land cover from Earth observation data in some form, thereby introducing the concept of Classification and how to classify remote sensing data. In the latter part of the lecture, various Machine Learning methods were specifically introduced (see mind map) for use in various data classifications, including image classification.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week6/Week6MLLULC.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Machine Learning Applications: LULC map (Source: <a href="https://medium.com/@akashmishra626/ml-use-cases-in-remote-sensing-8a07dce81051">Medium</a>)</figcaption>
+</figure>
+</div>
+<p>The practical session focused on explaining how to implement classification in GEE and also discussed how to divide data into training and testing sets to evaluate the classifier. The image below is this week’s mind map, to facilitate revision.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week6/Week6xmind.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Mind map for Week 6 content</figcaption>
+</figure>
+</div>
 </section>
 <section id="applications" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">6.2</span> Applications</h2>
+<p>As illustrated in the Summary section, the classification of remote sensing data can be applied to understand, manage, and monitor land changes. <span class="citation" data-cites="W6R1">Cavur et al. (<a href="references.html#ref-W6R1" role="doc-biblioref">2015</a>)</span> utilised high-resolution satellite images to map and analyse land use/land cover features in Tel Aviv and Basel.</p>
+<p>A more detailed example of observation is that <span class="citation" data-cites="W6R2">Chisense (<a href="references.html#ref-W6R2" role="doc-biblioref">2012</a>)</span> use of hyperspectral data to classify roofing materials, incorporating machine learning methods. They employed discriminant analysis feature extraction (DAFE) to extract features and then categorised the data using the ISODATA algorithm. After reducing the data dimensions, they used the ECHO classifier for the final classification. Their research also lays the groundwork and contributes to studies on rooftop greening or rooftop solar power, two strategies that can alleviate urban climate and energy challenges.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week6/Week6R2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Output map of unsupervised classification process <a href="https://shengaric92.github.io/CASA0023_Learning_diary/references.html">(Chisense, 2012)</a></figcaption>
+</figure>
+</div>
 </section>
 <section id="reflection" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-W6R1" class="csl-entry" role="listitem">
+Cavur, Mahmut, Serkan Kemec, Leili Nabdel, and H Sebnem Duzgun. 2015. <span>“An Evaluation of Land Use Land Cover (LULC) Classification for Urban Applications with Quickbird and WorldView2 Data.”</span> In <em>2015 Joint Urban Remote Sensing Event (JURSE)</em>, 1–4. IEEE. <a href="https://ieeexplore.ieee.org/abstract/document/7120486">https://ieeexplore.ieee.org/abstract/document/7120486</a>.
+</div>
+<div id="ref-W6R2" class="csl-entry" role="listitem">
+Chisense, Chembe. 2012. <span>“Classification of Roof Materials Using Hyperspectral Data.”</span> <em>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em> 39: 103–7. <a href="https://isprs-archives.copernicus.org/articles/XXXIX-B7/103/2012/isprsarchives-XXXIX-B7-103-2012.html">https://isprs-archives.copernicus.org/articles/XXXIX-B7/103/2012/isprsarchives-XXXIX-B7-103-2012.html</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

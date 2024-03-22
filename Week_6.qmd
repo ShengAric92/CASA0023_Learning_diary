@@ -2,6 +2,20 @@
 
 ## Summary
 
+This week's lecture began with a review of various studies applying remote sensing, all of which extract land cover from Earth observation data in some form, thereby introducing the concept of Classification and how to classify remote sensing data. In the latter part of the lecture, various Machine Learning methods were specifically introduced (see mind map) for use in various data classifications, including image classification.
+
+![Machine Learning Applications: LULC map (Source: [Medium](https://medium.com/@akashmishra626/ml-use-cases-in-remote-sensing-8a07dce81051))](images/Week6/Week6MLLULC.webp)
+
+The practical session focused on explaining how to implement classification in GEE and also discussed how to divide data into training and testing sets to evaluate the classifier. The image below is this week's mind map, to facilitate revision.
+
+![Mind map for Week 6 content](images/Week6/Week6xmind.png)
+
 ## Applications
+
+As illustrated in the Summary section, the classification of remote sensing data can be applied to understand, manage, and monitor land changes. @W6R1 utilised high-resolution satellite images to map and analyse land use/land cover features in Tel Aviv and Basel.
+
+A more detailed example of observation is that @W6R2 use of hyperspectral data to classify roofing materials, incorporating machine learning methods. They employed discriminant analysis feature extraction (DAFE) to extract features and then categorised the data using the ISODATA algorithm. After reducing the data dimensions, they used the ECHO classifier for the final classification. Their research also lays the groundwork and contributes to studies on rooftop greening or rooftop solar power, two strategies that can alleviate urban climate and energy challenges.
+
+![Output map of unsupervised classification process [(Chisense, 2012)](https://shengaric92.github.io/CASA0023_Learning_diary/references.html)](images/Week6/Week6R2.png)
 
 ## Reflection
