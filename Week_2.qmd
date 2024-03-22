@@ -3,11 +3,11 @@ title: "Week 2 Xaringan presentation"
 bibliography: references.bib
 ---
 
-Here is a short presentation:
+I have chosen Landsat 8 as the topic for this week's small presentation.
+Below is my Xaringan small presentation; thank you for watching.
 
 ```{r echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(
-  url = "https://shengaric92.github.io/CASA0023_learning_ppt/",
-  ratio = "16:9")
+  url = "https://shengaric92.github.io/CASA0023_learning_ppt/")
 
 ```
