@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -197,14 +216,60 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.1</span> Summary</h2>
+<p>This week, I learned about Google Earth Engine (GEE), a platform that can be used for visualising and analysing geospatial data. It is a cloud computing platform with powerful server processing capabilities. You need to register an account and then use it directly online. GEE uses JavaScript, a website programming language. By clicking on the link below and entering code in ‘New Script’, you can start your GEE journey!</p>
+<p><a href="https://code.earthengine.google.com" class="uri">https://code.earthengine.google.com</a></p>
+<p>The image below is a basic introduction to this page.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week5/Week5GEElooklike.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Google Earth Engine: Code Editor look like (Source: <a href="https://scienceparkstudygroup.github.io/GoogleEarthEngine/02-code-editor/">GEOHACKWEEK</a>)</figcaption>
+</figure>
+</div>
+<p>The practical involved a lot of JavaScript code, blending some of the knowledge from previous weeks and operating with GEE. For example, understanding data types, manipulating images, and using image and data analysis methods (texture measures, PCA, etc.).</p>
+<p>The image below is a mind map I made for this week’s knowledge.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week5/Week5xmind.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Mind map for Week 5 content</figcaption>
+</figure>
+</div>
 </section>
 <section id="applications" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">5.2</span> Applications</h2>
+<p>The field of remote sensing is continually collecting vast datasets, and Google’s development of GEE has effectively enabled researchers to conduct data analysis more efficiently. In their review of several hundred journal articles, <span class="citation" data-cites="W5R1">Amani et al. (<a href="references.html#ref-W5R1" role="doc-biblioref">2020</a>)</span> highlighted that GEE has been widely applied in various fields including hydrology, urban planning, climate analysis, land use classification, and image processing. Moreover, the number of GEE publications has significantly increased over the past decade.</p>
+<p><span class="citation" data-cites="W5R2">Tamiminia et al. (<a href="references.html#ref-W5R2" role="doc-biblioref">2020</a>)</span> also reviewed and analysed various publications, finding that GEE has extensive applications in both local and global environmental analyses. The table below lists the GEE applications in environmental studies identified by them. Furthermore, they noted that the ratio of articles using remote sensing datasets to those using ready-made products for analysis is 9 to 1.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week5/Week5R2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Environmental studies that used GEE in different applications <a href="https://shengaric92.github.io/CASA0023_Learning_diary/references.html">(Tamiminia et al., 2020)</a></figcaption>
+</figure>
+</div>
+<p><span class="citation" data-cites="W5R3">Moharrami, Javanbakht, and Attarchi (<a href="references.html#ref-W5R3" role="doc-biblioref">2021</a>)</span> presented a specific application where GEE was used to assess the impact of droughts and floods on farmland and crop production from 1980 to 2019.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Week5/Week5R3.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Detected flooded area overlaid on Sentinel-1 images <a href="https://shengaric92.github.io/CASA0023_Learning_diary/references.html">(Moharrami, Javanbakht &amp; Attarchi, 2021)</a></figcaption>
+</figure>
+</div>
 </section>
 <section id="reflection" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">5.3</span> Reflection</h2>
+<p>Before the class, I held particularly high expectations for GEE, but in reality, my initial impression of GEE wasn’t entirely flawless. Firstly, the new language, JavaScript, required some time to get accustomed to (I was used to Python and R, and I believe these languages might be easier to grasp); secondly, the interface use, particularly the display of Layers, could sometimes be sluggish, and zooming in and out might also experience delays.</p>
+<p>However, upon reflection, GEE is already incredibly powerful, capable of processing such complex data swiftly and possessing strong real-time visualisation capabilities. Perhaps I was being a bit too critical.</p>
+<p>GEE indeed requires some time to get used to, but once you start to master it and see the exquisite and beautiful visualisations appear before your eyes, you will definitely be delighted! Both GEE and your brain are powerful; please give yourselves a little bit of time to adjust to each other.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-W5R1" class="csl-entry" role="listitem">
+Amani, Meisam, Arsalan Ghorbanian, Seyed Ali Ahmadi, Mohammad Kakooei, Armin Moghimi, S Mohammad Mirmazloumi, Sayyed Hamed Alizadeh Moghaddam, et al. 2020. <span>“Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review.”</span> <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em> 13: 5326–50. <a href="https://ieeexplore.ieee.org/abstract/document/9184118">https://ieeexplore.ieee.org/abstract/document/9184118</a>.
+</div>
+<div id="ref-W5R3" class="csl-entry" role="listitem">
+Moharrami, Meysam, Mohammad Javanbakht, and Sara Attarchi. 2021. <span>“Automatic Flood Detection Using Sentinel-1 Images on the Google Earth Engine.”</span> <em>Environmental Monitoring and Assessment</em> 193 (5): 248. <a href="https://link.springer.com/article/10.1007/s10661-021-09037-7">https://link.springer.com/article/10.1007/s10661-021-09037-7</a>.
+</div>
+<div id="ref-W5R2" class="csl-entry" role="listitem">
+Tamiminia, Haifa, Bahram Salehi, Masoud Mahdianpari, Lindi Quackenbush, Sarina Adeli, and Brian Brisco. 2020. <span>“Google Earth Engine for Geo-Big Data Applications: A Meta-Analysis and Systematic Review.”</span> <em>ISPRS Journal of Photogrammetry and Remote Sensing</em> 164: 152–70. <a href="https://www.sciencedirect.com/science/article/pii/S0924271620300927?casa_token=hEgi42RH9AwAAAAA:cFtjL2IL6_3inLYTg53nEciMTd5KeFkWFatrLzk6u3aw5Nb4R69Ot7L3dH0LQVI-TNNvjxuQfaA">https://www.sciencedirect.com/science/article/pii/S0924271620300927?casa_token=hEgi42RH9AwAAAAA:cFtjL2IL6_3inLYTg53nEciMTd5KeFkWFatrLzk6u3aw5Nb4R69Ot7L3dH0LQVI-TNNvjxuQfaA</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

@@ -2,6 +2,36 @@
 
 ## Summary
 
+This week, I learned about Google Earth Engine (GEE), a platform that can be used for visualising and analysing geospatial data. It is a cloud computing platform with powerful server processing capabilities. You need to register an account and then use it directly online. GEE uses JavaScript, a website programming language. By clicking on the link below and entering code in 'New Script', you can start your GEE journey!
+
+<https://code.earthengine.google.com>
+
+The image below is a basic introduction to this page.
+
+![Google Earth Engine: Code Editor look like (Source: [GEOHACKWEEK](https://scienceparkstudygroup.github.io/GoogleEarthEngine/02-code-editor/))](images/Week5/Week5GEElooklike.png)
+
+The practical involved a lot of JavaScript code, blending some of the knowledge from previous weeks and operating with GEE. For example, understanding data types, manipulating images, and using image and data analysis methods (texture measures, PCA, etc.).
+
+The image below is a mind map I made for this week's knowledge.
+
+![Mind map for Week 5 content](images/Week5/Week5xmind.png)
+
 ## Applications
 
+The field of remote sensing is continually collecting vast datasets, and Google's development of GEE has effectively enabled researchers to conduct data analysis more efficiently. In their review of several hundred journal articles, @W5R1 highlighted that GEE has been widely applied in various fields including hydrology, urban planning, climate analysis, land use classification, and image processing. Moreover, the number of GEE publications has significantly increased over the past decade.
+
+@W5R2 also reviewed and analysed various publications, finding that GEE has extensive applications in both local and global environmental analyses. The table below lists the GEE applications in environmental studies identified by them. Furthermore, they noted that the ratio of articles using remote sensing datasets to those using ready-made products for analysis is 9 to 1.
+
+![Environmental studies that used GEE in different applications [(Tamiminia et al., 2020)](https://shengaric92.github.io/CASA0023_Learning_diary/references.html)](images/Week5/Week5R2.png)
+
+@W5R3 presented a specific application where GEE was used to assess the impact of droughts and floods on farmland and crop production from 1980 to 2019.
+
+![Detected flooded area overlaid on Sentinel-1 images [(Moharrami, Javanbakht & Attarchi, 2021)](https://shengaric92.github.io/CASA0023_Learning_diary/references.html)](images/Week5/Week5R3.webp)
+
 ## Reflection
+
+Before the class, I held particularly high expectations for GEE, but in reality, my initial impression of GEE wasn't entirely flawless. Firstly, the new language, JavaScript, required some time to get accustomed to (I was used to Python and R, and I believe these languages might be easier to grasp); secondly, the interface use, particularly the display of Layers, could sometimes be sluggish, and zooming in and out might also experience delays.
+
+However, upon reflection, GEE is already incredibly powerful, capable of processing such complex data swiftly and possessing strong real-time visualisation capabilities. Perhaps I was being a bit too critical.
+
+GEE indeed requires some time to get used to, but once you start to master it and see the exquisite and beautiful visualisations appear before your eyes, you will definitely be delighted! Both GEE and your brain are powerful; please give yourselves a little bit of time to adjust to each other.
