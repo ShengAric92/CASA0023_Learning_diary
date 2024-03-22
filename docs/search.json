@@ -109,7 +109,7 @@
     "href": "Week_7.html#summary",
     "title": "7  Week 7 Classification II",
     "section": "7.1 Summary",
-    "text": "7.1 Summary"
+    "text": "7.1 Summary\nThis week’s lecture advanced our understanding of Classification, delving into two specialized remote sensing image analysis techniques: Object-Based Image Analysis (OBIA) and Sub Pixel Analysis. OBIA aggregates neighbouring pixels that share similar characteristics into objects for more cohesive analysis, whereas Sub Pixel Analysis intricately resolves mixed pixels situations, where a single pixel encompasses multiple land surface types.\nEvaluating the accuracy of outcomes is paramount. The Confusion Matrix is instrumental in assessing classification models’ performance, facilitating the calculation of key metrics such as Producer’s Accuracy, User’s Accuracy, and Overall Accuracy. Moreover, it enables the derivation of the Kappa Coefficient, offering a comparative measure of the image’s accuracy against chance coincidences. The culmination of the lecture underscored the importance of validation, spotlighting strategies like training and testing data splits and cross-validation techniques. The lecture integrated the concept of spatial autocorrelation, as previously introduced in CASA0005, heralding the adoption of Spatial Cross Validation. This approach considers the influence of spatial factors and strives to reduce spatial autocorrelation between the training and testing datasets, thereby enhancing the reliability of model assessments.\n\n\n\nSpatial visualization of selected test and training observations for cross-validation of one repetition (Source: Geocomputation with R)"
   },
   {
     "objectID": "Week_8.html#summary",
