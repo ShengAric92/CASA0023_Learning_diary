@@ -17,3 +17,9 @@ Last week we explored classification, and this week's literature focuses on the 
 ![LULC map with different machine-learning techniques [(Talukdar et al., 2020)](https://shengaric92.github.io/CASA0023_Learning_diary/references.html)](images/Week7/Week7R2.jpg)
 
 ## Reflection
+
+My vision from the first week to gain a more comprehensive understanding of the integration of remote sensing and machine learning was realised in weeks six and seven. Although the content this week was relatively more technical and theory-heavy, it was overall quite fascinating. The lecture's final review of spatial autocorrelation made me realise that we're not just studying machine learning; we're exploring spatial science.
+
+This week focused on discussing the assessment of model accuracy, but I usually like to link accuracy with computational time (in the mathematics, when discussing model performance, it's common to discuss the model's accuracy in conjunction with computational time). I know dwelling on computational complexity might be considered excessive, as this term is somewhat beyond our scope and more closely associated with mathematical optimisation.
+
+However, this perspective is indeed worth considering, especially since processing large images can be computationally intensive. In situations with time constraints, such as projects aimed at preventing and mitigating disasters, time is money, and the priority of computational complexity rises. Here, I found an excellent piece of literature that accelerates computation without sacrificing accuracy. @W7R3 offers an optimisation method for the time-consuming process of extracting information from large images using OBIA, implementing a low-level grouping process. Their main contribution is a significant reduction in computation time, from 5 hours and 35 minutes to just 13 minutes, while maintaining similar or even slightly improved geometric accuracy.
